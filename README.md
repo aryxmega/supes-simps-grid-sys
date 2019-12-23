@@ -1,6 +1,6 @@
-# Supes Simps Grids Sys
+# Supes Simps Grid Sys
 
-Supes Simps Grids Sys (aka SSGS) is a a super simple grid system that's mad easy to customize to fit your millennial needs. It currently supports Chrome, Firefox, Safari, Opera, IE and major mobile devices.
+Supes Simps Grid Sys (aka SSGS) is a a super simple grid system that's mad easy to customize to fit your millennial needs. It currently supports Chrome, Firefox, Safari, Opera, IE and major mobile devices.
 
 ## Installation
 
