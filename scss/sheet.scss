@@ -1,0 +1,53 @@
+/************************************************
+
+Name:               Supes Simps Grids
+Version:            1.0
+Author:             Ary Mega
+                    http://arymega.com/
+
+License:            MIT, 2019
+Documentation:      http://github.com/awwwry/
+
+************************************************/
+
+// Global Settings
+@import '_settings';
+
+// Grid Framework
+@import 'grid';
+
+* {
+    margin: 0;
+    padding: 0;
+    @include box-sizing(border-box);        // Settings can be found in scss/_settings.scss
+}
+
+.wrap {
+    margin: 0 auto;
+    max-width: $frame-width;
+    padding: 4px;
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+.max-width {
+    max-width: $max-width;
+}
+
+.box {
+    background: $grey;
+    color: $black;
+	font-family: $font;
+	font-size: 16px;
+	padding: 20px 0;
+	text-align: center;
+
+	&-new {
+        background: $black;
+        color: $white;
+	}
+}

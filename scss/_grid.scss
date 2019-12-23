@@ -1,0 +1,68 @@
+// Global Block Attribute
+[class*='block-'] {
+    float: left;
+    padding: $block-padding;
+}
+
+// Blocks
+@for $i from $min through $max {
+    .block-#{$i} {
+        width: $full / $i;
+    }
+}
+
+// Percentage Block Widths
+@each $i in $plock {
+    .block-#{$i} {
+        width: percentage($i / 100);
+    }
+}
+
+.block-33 {
+    width: 33.3333333333%;
+}
+
+.block-66 {
+    width: 66.6666666666%;
+}
+
+// Mobile
+@media (max-width: $small) {
+    @for $i from $min through $max {
+        .block-#{$i} {
+            width: $full
+        }
+    }
+}
+
+// Tablet (Portrait)
+@media (min-width: $small) and (max-width: $medium) {
+    .block-4,
+    .block-6 {
+        width: $half;
+    }
+
+    .block-1,
+    .block-2,
+    .block-3,
+    .block-5,
+    .block-25,
+    .block-33,
+    .block-40,
+    .block-60,
+    .block-66,
+    .block-75 {
+        width: $full;
+    }
+}
+
+// Tablet (Landscape)
+@media (min-width: $medium) and (max-width: $large) {
+    .block-2 {
+        width: $full;
+    }
+
+    .block-4 {
+        width: $half;
+    }
+}

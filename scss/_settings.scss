@@ -1,0 +1,47 @@
+// Global
+$full:                      100%;
+$half:                      $full / 2; // 100% divided by 2
+
+
+
+// Mixins
+@mixin box-sizing($type) {
+    -webkit-box-sizing:     $type;
+    -moz-box-sizing:        $type;
+    box-sizing:             $type;
+}
+
+
+
+// Media Queries
+$small:                     480px;      // Mobile
+$medium:                    768px;      // Tablet
+$large:                     1280px;     // Desktop
+
+$block-padding:             4px;        // This can be removed
+
+
+
+// Grids
+$min:       		        1;
+$max:         		        6;          // This can be changed to any amount your heart desires
+
+// Percentage Blocks
+$plock:                     25,
+                            40,
+                            60,
+                            75;
+
+// Frame width (grid wrapper)
+$frame-width: 		        $full;
+$max-width:                 1000px;     // This can be changed to whatever your heart desires
+
+// Fonts
+$font:                      'IBM Plex Mono', monospace;
+
+// Colors
+$black:                     #000000;
+$grey:                      #EEEEEE;
+$blue:                      #3399FF;
+$red:                       #EF3340;
+$white:                     #FFFFFF;
