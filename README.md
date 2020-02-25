@@ -24,7 +24,7 @@ Getting started is supes simps:
     <div class="block-3">Content here</div>
 </div>
 ```
-Creating a two-column layout is supes simps (this will scale each column down to 100% width on mobile). Wrap the .block's in a .wrap class to clear the left floats.
+Creating a three-column layout is supes simps (this will scale each column down to 100% width on mobile). Wrap the .block's in a .wrap class to clear the left floats.
 
 #### Customizing your grid
 Maybe you want to kick-it old school and create a two-column layout — it's mad simps. All you need to know is basic math (as long as the .block- classes equal 100%, it will be fire).
