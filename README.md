@@ -4,8 +4,8 @@ Supes Simps Grid Sys (aka SSGS) is a a super simple grid system that's mad easy 
 
 ## Installation
 
--   Clone: https://github.com/awwwry/supes-simps-grids-sys.git
--   Download latest .zip file: https://github.com/awwwry/supes-simps-grids-sys/archive/master.zip
+-   Clone: https://github.com/aryxmega/supes-simps-grids-sys.git
+-   Download latest .zip file: https://github.com/aryxmega/supes-simps-grids-sys/archive/master.zip
 
 
 ## Getting Started
